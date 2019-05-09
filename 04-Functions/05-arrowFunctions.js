@@ -1,7 +1,7 @@
 //Arrow Functions
 
 //Normal
-function coffe() {
+function coffee() {
     console.log('coffee is good');
 }
 

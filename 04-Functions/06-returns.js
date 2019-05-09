@@ -45,3 +45,17 @@ let bill = 19.88
 let totalTip = tipCalc(19.88);
 //console.log(totalTip);
 console.log(`If my bill is ${bill}, my tip will be ${totalTip}.`)
+
+function checker(word) {
+    let palindrone = '';
+    for(let i in word)
+    if (i === 0) {
+      palindrone+=word[0] === word[3];
+      palindrone+=word[1] === word[2];
+    } else {
+      console.log("This is not a palindrone.");
+    }
+    //write an if statement that evaluates if a string is the same backwards and forward. If it is the same, return the word back out. If it is not the same, return 'This is not a palindrone'. Use the function scafold provided
+  return palindrone
+  }
+  const noon = checker('noon')
